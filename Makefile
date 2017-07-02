@@ -1,2 +1,4 @@
-more_city_locations.json: More_City_Locations/*.json
-	cat $^ | jq -s '[.[]]' > $@
+
+dist/More_City_Locations.zip: More_City_Locations/*.json
+	@mkdir -p dist/
+	zip -r $@ $^
