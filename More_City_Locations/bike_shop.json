@@ -107,19 +107,21 @@
     "items": [
       ["wheel_bicycle", 100],
       ["horn_bicycle", 80],
+      ["foot_crank", 80],
+      ["saddle", 80],
+      ["chain", 30],
       ["wrench", 30],
       ["screwdriver", 40],
       ["screwdriver_set", 20],
       ["superglue", 30],
       ["hacksaw", 17],
-      ["pliers", 30],
+      ["pliers", 40],
       ["gloves_leather", 45],
       ["gloves_work", 45],
       ["mask_dust", 15],
       ["manual_mechanics", 35],
       ["manual_fabrication", 20],
       ["duct_tape", 70],
-      ["foot_crank", 10],
       ["misc_repairkit", 15],
       ["toolbox", 2]
     ]
@@ -133,18 +135,27 @@
         {"item":"horn_bicycle", "prob": 80},
         {"item":"foot_crank", "prob": 80},
         {"item":"saddle", "prob": 80},
+        {"item":"chain", "prob": 40},
+        {"item": "small_storage_battery", "prob": 10},
         {"item":"folding_bicycle", "prob": 10},
         {"item":"roller_blades", "prob": 10}
       ]},
       
       {"distribution":[
         {"item": "helmet_bike", "prob": 35},
-        {"item": "gloves_leather", "prob": 45},
+        {"item": "knee_pads", "prob": 35},
+        {"item": "elbow_pads", "prob": 35},
+        {"item": "gloves_leather", "prob": 35},
         {"item": "gloves_light", "prob": 35},
-        {"item": "scarf", "prob": 45},
-        {"item": "bandana", "prob": 35},
-        {"item": "gloves_fingerless", "prob": 20},
-        {"item": "touring_suit", "prob": 15}
+        {"item": "gloves_fingerless", "prob": 35},
+        {"item": "touring_suit", "prob": 25},
+        {"item": "bandana", "prob": 25},
+        {"item": "scarf", "prob": 15},
+        {"item": "sunglasses", "prob": 25},
+        {"item": "fitover_sunglasses", "prob": 20},
+        {"item": "fancy_sunglasses", "prob": 20},
+        {"item": "canteen", "prob": 20},
+        {"item": "camelbak", "prob": 20}
       ]},
       
       {"distribution": [
@@ -155,12 +166,12 @@
       ]},
       
       {"distribution": [
-        {"item": "wrench", "prob": 30},
+        {"item": "wrench", "prob": 20},
+        {"item": "multitool", "prob": 30},
         {"item": "screwdriver_set", "prob": 20},
-        {"item": "duct_tape", "prob": 70},
-        {"item": "misc_repairkit", "prob": 15},
-        {"item": "toolbox", "prob": 2},
-        {"item": "small_storage_battery", "prob": 10}
+        {"item": "duct_tape", "prob": 50},
+        {"item": "misc_repairkit", "prob": 25},
+        {"item": "toolbox", "prob": 2}
       ]}
     ]
   }
