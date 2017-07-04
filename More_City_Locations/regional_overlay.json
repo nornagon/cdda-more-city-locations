@@ -9,7 +9,8 @@
         "s_bike_shop": 1,
         "daycare": 2,
         "post_office": 1,
-        "fishing_supply": 1
+        "fishing_supply": 1,
+        "construction_site": 1
       }
     }
   },
@@ -74,6 +75,17 @@
     "name": "council office",
     "sym": 35,
     "color": "white",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": ["SIDEWALK"]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "construction_site",
+    "name": "construction site",
+    "sym": 94,
+    "color": "i_yellow",
     "see_cost": 5,
     "extras": "build",
     "mondensity": 2,
