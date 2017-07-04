@@ -6,9 +6,10 @@
     "city": {
       "shops": {
         "s_butcher": 2,
-        "s_bike_shop": 2,
+        "s_bike_shop": 1,
         "daycare": 2,
-        "post_office": 2
+        "post_office": 1,
+        "fishing_supply": 1
       }
     }
   },
@@ -48,6 +49,17 @@
   {
     "type": "overmap_terrain",
     "id": "post_office",
+    "name": "post office",
+    "sym": 80,
+    "color": "white",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": ["SIDEWALK"]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "fishing_supply",
     "name": "post office",
     "sym": 80,
     "color": "white",
