@@ -192,7 +192,7 @@
       ["hotdogs_frozen", 6],
       ["sausage", 4],
       ["sweet_sausage", 2],
-      ["bag_meat_vac", 2],
+      ["meat_salted", 2],
       ["meat_canned", 2],
       ["meat_smoked", 2],
       {"item": "meat_pickled", "prob":  2, "charges": 2, "container-item": "jar_glass_sealed"}
