@@ -55,8 +55,8 @@
           "x": [ 3, 6 ],
           "y": [ 3, 6 ]
         },
-        { "group": "elec_parts", "chance": 50, "repeat": [ 1 ], "x": [ 9, 9 ], "y": [ 8, 7 ] },
-        { "group": "elec_parts", "chance": 50, "repeat": [ 1 ], "x": [ 11, 11 ], "y": [ 19, 18 ] },
+        { "group": "supplies_electronics", "chance": 50, "repeat": [ 1 ], "x": [ 9, 9 ], "y": [ 8, 7 ] },
+        { "group": "supplies_electronics", "chance": 50, "repeat": [ 1 ], "x": [ 11, 11 ], "y": [ 19, 18 ] },
         {
           "group": "hardware_bulk",
           "chance": 60,
